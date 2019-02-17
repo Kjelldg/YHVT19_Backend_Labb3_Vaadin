@@ -1,5 +1,9 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin-flow/Lobby#?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+Screenshot from the app, showcasing the UI and a sample from a list of users.
+
+![Screenshot from the app](https://github.com/Kjelldg/YHVT19_Backend_Labb3_Vaadin/blob/master/VaadinappScreenshot.png)
+
 # Skeleton Starter for Vaadin Flow
 
 This project can be used as a starting point to create your own Vaadin Flow application.
