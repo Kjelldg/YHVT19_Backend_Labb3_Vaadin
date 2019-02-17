@@ -10,8 +10,14 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+// This class contains the code for viewing the users in the database.
 public class ViewUser {
 
+	/*
+	 * This method returns an arraylist from the database which is used to populate
+	 * a grid in the "Mainview" class. The data is retrieved from the database.
+	 * 
+	 */
 	public ArrayList<User> viewUsersArrayList() {
 
 		ArrayList<User> userList = new ArrayList<>();
@@ -44,6 +50,27 @@ public class ViewUser {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		return userList;
+	}
+
+	// This method is used for testing the grid in an offline mode.
+	public ArrayList<User> viewUsersArrayListTtest() {
+
+		ArrayList<User> userList = new ArrayList<>();
+
+		userList.add(new User(1, "Kjell", "Systemutvecklare"));
+		userList.add(new User(2, "Generic user", "Testare"));
+		userList.add(new User(3, "John", "Resurs"));
+		userList.add(new User(4, "Meck", "Mekaniker"));
+		userList.add(new User(5, "Kexet", "Salsadansare"));
+		userList.add(new User(6, "Jane", "Painter"));
+		userList.add(new User(7, "Pablo", "Manager"));
+		userList.add(new User(8, "Generic user", "Testare"));
+		userList.add(new User(9, "Generic user", "Testare"));
+		userList.add(new User(10, "Generic user", "Testare"));
+		userList.add(new User(11, "Generic user", "Testare"));
+		userList.add(new User(12, "Generic user", "Testare"));
 
 		return userList;
 	}

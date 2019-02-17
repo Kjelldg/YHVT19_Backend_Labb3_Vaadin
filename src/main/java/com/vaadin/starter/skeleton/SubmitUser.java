@@ -5,8 +5,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+// This class is used for submitting a user via a URL.
 public class SubmitUser {
 
+	// This method is called to submit a user via a URL.
 	public void userSubmit(String name, String profession) {
 
 		String newUrl = "http://localhost:8090/YHVT19_Backend_Labb2_G/rest/UserService/addusersURL/" + name + "/"
